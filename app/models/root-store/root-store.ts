@@ -6,7 +6,7 @@ import { NavigationStoreModel } from "../../navigation/navigation-store"
  * An RootStore model.
  */
 export const RootStoreModel = types.model("RootStore").props({
-  questionStore: types.optional(QuestionStoreModel, {}),
+  questionStore: types.optional(QuestionStoreModel, {} as any),
   navigationStore: types.optional(NavigationStoreModel, {}),
 })
 

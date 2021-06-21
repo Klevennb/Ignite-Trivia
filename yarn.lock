@@ -5266,6 +5266,11 @@ lodash.repeat@^4.1.0:
   resolved "https://registry.yarnpkg.com/lodash.repeat/-/lodash.repeat-4.1.0.tgz#fc7de8131d8c8ac07e4b49f74ffe829d1f2bec44"
   integrity sha1-/H3oEx2MisB+S0n3T/6CnR8r7EQ=
 
+lodash.shuffle@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/lodash.shuffle/-/lodash.shuffle-4.2.0.tgz#145b5053cf875f6f5c2a33f48b6e9948c6ec7b4b"
+  integrity sha1-FFtQU8+HX29cKjP0i26ZSMbse0s=
+
 lodash.snakecase@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/lodash.snakecase/-/lodash.snakecase-4.1.1.tgz#39d714a35357147837aefd64b5dcbb16becd8f8d"
@@ -7036,6 +7041,13 @@ ramdasauce@^2.1.0:
   dependencies:
     ramda "^0.24.1"
 
+randombytes@^2.0.3:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/randombytes/-/randombytes-2.1.0.tgz#df6f84372f0270dc65cdf6291349ab7a473d4f2a"
+  integrity sha512-vYl3iOX+4CKUWuxGi9Ukhie6fsqXqS9FE2Zaic4tNFD2N2QQaXOMFbuKK4QmDHC0JO6B1Zp41J0LpT0oR68amQ==
+  dependencies:
+    safe-buffer "^5.1.0"
+
 range-parser@~1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.1.tgz#3cf37023d199e1c24d1a55b84800c2f3e6468031"
@@ -7130,6 +7142,13 @@ react-native-tab-view@^1.2.0, react-native-tab-view@^1.4.1:
   integrity sha512-Bke8KkDcDhvB/z0AS7MnQKMD2p6Kwfc1rSKlMOvg9CC5CnClQ2QEnhPSbwegKDYhUkBI92iH/BYy7hNSm5kbUQ==
   dependencies:
     prop-types "^15.6.1"
+
+react-native-uuid@^1.4.9:
+  version "1.4.9"
+  resolved "https://registry.yarnpkg.com/react-native-uuid/-/react-native-uuid-1.4.9.tgz#a526742f8fddfe6414500655212ca8d109c40229"
+  integrity sha1-pSZ0L4/d/mQUUAZVISyo0QnEAik=
+  dependencies:
+    randombytes "^2.0.3"
 
 react-native@0.60.4:
   version "0.60.4"
@@ -7685,6 +7704,11 @@ safe-buffer@^5.0.1, safe-buffer@^5.1.2:
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.0.tgz#b74daec49b1148f88c64b68d49b1e815c1f2f519"
   integrity sha512-fZEwUGbVl7kouZs1jCdMLdt95hdIv0ZeHg6L7qPeciMZhZ+/gdesW4wgTARkrFWEpspjEATAzUGPG8N2jJiwbg==
 
+safe-buffer@^5.1.0:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.2.1.tgz#1eaf9fa9bdb1fdd4ec75f58f9cdb4e6b7827eec6"
+  integrity sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==
+
 safe-regex@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/safe-regex/-/safe-regex-1.1.0.tgz#40a3669f3b077d1e943d44629e157dd48023bf2e"
@@ -7795,9 +7819,9 @@ set-blocking@^2.0.0, set-blocking@~2.0.0:
   integrity sha1-BF+XgtARrppoA93TgrJDkrPYkPc=
 
 set-getter@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/set-getter/-/set-getter-0.1.0.tgz#d769c182c9d5a51f409145f2fba82e5e86e80376"
-  integrity sha1-12nBgsnVpR9AkUXy+6guXoboA3Y=
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/set-getter/-/set-getter-0.1.1.tgz#a3110e1b461d31a9cfc8c5c9ee2e9737ad447102"
+  integrity sha512-9sVWOy+gthr+0G9DzqqLaYNA7+5OKkSmcqjL9cBpDEaZrr3ShQlyX2cZ/O/ozE41oxn/Tt0LGEM/w4Rub3A3gw==
   dependencies:
     to-object-path "^0.3.0"
 
